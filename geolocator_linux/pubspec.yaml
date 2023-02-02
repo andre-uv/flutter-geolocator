@@ -22,7 +22,10 @@ dependencies:
     sdk: flutter
   geoclue: ^0.1.0
   geolocator_platform_interface:
-    path: ../geolocator_platform_interface
+    git:
+      url: https://github.com/andre-uv/flutter-geolocator.git
+      path: geolocator_platform_interface
+      ref: main
   gsettings: ^0.2.5
   package_info_plus: ^1.4.2
 
