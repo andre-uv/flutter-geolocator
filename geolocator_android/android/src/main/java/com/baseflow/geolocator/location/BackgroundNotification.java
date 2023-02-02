@@ -72,6 +72,7 @@ public class BackgroundNotification {
         }
     }
 
+    @SuppressLint("MissingPermission")
     private void updateNotification(
             ForegroundNotificationOptions options,
             boolean notify
